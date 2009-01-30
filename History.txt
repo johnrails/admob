@@ -1,0 +1,6 @@
+=== 1.1.0 / 2008-10-05
+* Added support for AdMob cookies (see README.TXT)
+
+=== 1.0.0 / 2008-05-08
+
+* AdMob gem created
