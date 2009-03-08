@@ -1,3 +1,6 @@
+=== 1.1.0 / 2009-03-08
+* Modified version to track without the use of cookies. 
+
 === 1.1.0 / 2008-10-05
 * Added support for AdMob cookies (see README.TXT)
 
