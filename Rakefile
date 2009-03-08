@@ -1,13 +1,12 @@
 require 'rubygems'
-require 'hoe'
-require './lib/admob.rb'
+require 'rake'
+require 'echoe'
 
-Hoe.new('admob', AdMob::GEM_VERSION) do |p|
-  p.rubyforge_name = 'admob'
-  p.summary = 'Enables easy integration of AdMob ads into a RoR mobile site.'
-  p.author = 'AdMob'
-  p.email = 'support@admob.com'
-  p.url = 'http://www.admob.com/'
-  p.description = 'Enables easy integration of AdMob ads into a RoR mobile site.'
-  p.developer('AdMob', 'support@admob.com')
+Echoe.new('admob', '1.1.0') do |p|
+  p.description    = "Enables easy integration of AdMob ads into a RoR mobile site. Bypasses the original gem's cookie requirement."
+  p.url            = "http://github.com/tatyree/admob"
+  p.author         = "AdMob, Todd Tyree"
+  p.email          = "todd@snappl.co.uk"
+  p.ignore_pattern = ["tmp/*", "script/*"]
+  p.development_dependencies = []
 end
